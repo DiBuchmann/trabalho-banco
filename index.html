@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CRUD com JavaScript</h1>
+
+  <form id="insertForm">
+    <input type="text" id="nameInput" placeholder="Nome">
+    <button type="submit">Inserir</button>
+  </form>
+
+  <form id="updateForm">
+    <input type="number" id="updateId" placeholder="ID">
+    <input type="text" id="updateName" placeholder="Novo nome">
+    <button type="submit">Alterar</button>
+  </form>
+
+  <form id="deleteForm">
+    <input type="number" id="deleteId" placeholder="ID">
+    <button type="submit">Deletar</button>
+  </form>
+
+  <button onclick="selectAll()">Selecionar Todos</button>
+  <ul id="userList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
