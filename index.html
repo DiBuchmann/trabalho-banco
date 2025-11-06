@@ -2,30 +2,28 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>CRUD Simples</title>
+  <title>Site Simples</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>CRUD com JavaScript</h1>
-
-  <form id="insertForm">
+  <form id="addForm">
     <input type="text" id="nameInput" placeholder="Nome">
-    <button type="submit">Inserir</button>
+    <button type="submit">Adicionar</button>
   </form>
 
-  <form id="updateForm">
-    <input type="number" id="updateId" placeholder="ID">
-    <input type="text" id="updateName" placeholder="Novo nome">
+  <form id="editForm">
+    <input type="number" id="editId" placeholder="ID">
+    <input type="text" id="editName" placeholder="Novo nome">
     <button type="submit">Alterar</button>
   </form>
 
   <form id="deleteForm">
     <input type="number" id="deleteId" placeholder="ID">
-    <button type="submit">Deletar</button>
+    <button type="submit">Excluir</button>
   </form>
 
-  <button onclick="selectAll()">Selecionar Todos</button>
-  <ul id="userList"></ul>
+  <button onclick="mostrar()">Mostrar</button>
+  <ul id="lista"></ul>
 
   <script src="script.js"></script>
 </body>

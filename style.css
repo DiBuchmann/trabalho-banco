@@ -1,10 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+  font-family: sans-serif;
+  padding: 20px;
 }
 
 form {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 input {
@@ -17,6 +17,7 @@ button {
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
 }
